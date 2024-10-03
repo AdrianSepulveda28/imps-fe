@@ -1,18 +1,18 @@
-import { useEffect } from 'react';
 import axios from 'axios';
+import { useEffect } from 'react';
 import {
-  BrowserRouter as Router,
   Route,
+  BrowserRouter as Router,
   Routes,
 } from 'react-router-dom';
 
 import Adminpage from './pages/Admin/Adminpage';
 import ForgotPassword from './pages/ForgotPassword/ForgotPassword';
+import Headpage from './pages/Headpage/Headpage';
 import Homepage from './pages/Homepage/Homepage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/RegisterPage/RegisterPage';
 import Staffpage from './pages/Staffpage/Staffpage';
-import Headpage from './pages/Headpage/Headpage';
 
 const App = () => {
 
